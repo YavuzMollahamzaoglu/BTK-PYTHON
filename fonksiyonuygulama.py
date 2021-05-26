@@ -16,4 +16,3 @@ result = listeyeCevir(10,20,30, 'Merhaba')
 print(result)'''
 
 
-sayi1 = int(input('sayı1 :')

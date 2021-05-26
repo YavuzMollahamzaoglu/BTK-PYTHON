@@ -46,7 +46,3 @@ print(topla(5, 2, 3))
 print(topla(5, sayi3=5)) '''        # direk 2 yi vermeden 3'ü vermek için tanımladığımız değikeni yazmamız lazım.
 
 
-def selamla(isim, gundonemi ='Günaydın'):
-    print(gun_donemi, '!', isim, 'Nasılsın?')
-
-selamla('Yavuz', gundonemi='İyi Akşamlar')
