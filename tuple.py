@@ -10,6 +10,9 @@ print(tuple[2])
 print(len(tuple))'''
 
 
-tuple = ('molla', 'yavuz')
+tuple = ('molla', 'yavuz')       #önceki elemanları siler. Tuple atandıktan sonra elemanları değişmez.
 
 print(tuple)
+
+
+tuple.count('molla')           #kaç kez tekrarlandığını sorar .

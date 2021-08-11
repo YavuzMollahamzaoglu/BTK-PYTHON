@@ -24,7 +24,7 @@ plakalar['rize'] = 53
 print(plakalar)'''
 
 
-users = {
+'''users = {
     'yavuzmolla': {
         'age' : '19',
         'address':'mersin',
@@ -37,4 +37,6 @@ users = {
 }
 
 print(users['yavuzmolla'])
-print(users['yavuzmolla']['age'])
+print(users['yavuzmolla']['age'])'''
+
+
