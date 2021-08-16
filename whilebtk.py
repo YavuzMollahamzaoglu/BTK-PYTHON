@@ -14,7 +14,7 @@ while x <= 100:
     x += 1'''
 
 
-name =''  #False
+'''name =''  #False
 while not name
     name = input('Enter your name:')
-    print(name)
+    print(name)'''

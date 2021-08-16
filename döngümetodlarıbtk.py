@@ -15,5 +15,19 @@ for letter in  greeting:
 
     index += 1'''
 
-for item in enumerate(greeting):
+'''for item in enumerate(greeting):   #enumarate indexlerine göre sıralar
+    print(f'index: {index} letter: {letter}')'''
+
+
+list1 = [1,2,3,4,5]
+list2 = ['a','b','c','d','e']
+
+print(list(zip(list1, list2)))      # zip karşılıklı olarak eşleştirir.
+
+
+for item in zip(list1, list2):
     print(item)
+
+for a,b,c in zip(list1, list2):
+    print(a,b,c)
+

@@ -4,3 +4,7 @@ result = type(lst)
 result2 = type(lst2)
 print(result2)
 print(result)
+
+
+#Class
+#Instances

@@ -120,18 +120,23 @@ s1.eat()
 s1.who_am_i()'''
 
 
-myList = [1,2,3]
+'''myList = [1,2,3]
 myString = 'My string'
 
 print(len(myList))
 print(len(myString))
 
-class Movie():
-    pass
+    class Movie():
+    def __init__(self, title, director, duration):
+        self.title = title
+        self.director = director
+        self.duration = duration
+        print('Movie object created.')
+        
 
-m = Movie()
+m = Movie('Movie name', 'Director name')
 print(type(m))
-print(len(m))
+print(len(m))'''
 
 
 
